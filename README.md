@@ -1,0 +1,5 @@
+# Exercícios de C - Mini Curso
+
+Este repositório contém uma coleção de pequenos problemas resolvidos em C durante um mini curso de programação. Os exercícios foram desenvolvidos para praticar lógica de programação, estruturas de controle, funções e manipulação de dados em C.
+
+---
