@@ -1,0 +1,20 @@
+2 - O programa abaixo possui erro. Qual? Como deveria ser?
+void main() {
+    int x, *p;
+    x = 100;
+    p = x;
+    printf(“Valor de p: %d.\n”, *p);
+}
+
+//resposta:
+p é um ponteiro, então deveria ter sido passado o endereço de x ao inves do seu valor.
+O correto seria utilizar o '&' junto com o x:
+
+void main() {
+    int x, *p;
+    x = 100;
+    p = &x;
+    printf(“Valor de p: %d.\n”, *p);
+}
+
+assim a saida seria: 'Valor de p: 100.'
